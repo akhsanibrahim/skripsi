@@ -1,1 +1,7 @@
-# skripsi
+# Skripsi
+
+Ini adalah file program tugas akhir skripsi saya. Pada skripsi ini, saya mengembangkan Training Kit IoT Door Lock untuk media pembelajaran pada mata kuliah Praktikum IoT di prodi Pendidikan Teknik Elektronika UNY.
+
+Perangkat ini terdiri atas komponen input di antaranya keypad dan RFID, output berupa servo, relay, solenoid, LCD, dan indikator. Adapun kontroler yang digunakan yaitu Raspberry Pi Zero W, dan aplikasi Telegram sebagai media komunikasi antar training kit dan perangkat mobile.
+
+Training kit ini dirancang sedemikian rupa menyerupai pintu rumah dan kunci pintu. Konsep kerja perangkat ini yaitu pengguna dapat membuka kunci pintu melalui 2 metode. Metode pertama yaitu RFID, pengguna yang memiliki akses RFID dapat membuka kunci pintu hanya dengan menempelkan kartu RFID pada modul sensor RFID. Metode kedua yaitu keypad, pengguna dapat menginput 4 digit pin yang sesuai untuk membuka pintu. Namun, penggunaan keypad ini sangat riskan dengan percobaan peretasan. Pengguna yang tidak tahu password bisa saja mencoba-coba sampai password benar. Maka dari itu, saya memberikan pengamanan berupa pembatasan 3 kali salah password dan notifikasi Telegram. Jika pengguna salah dalam menginput password sebanyak 3 kali, maka perangkat akan mengirim pesan notifikasi ke Telegram dan perangkat akan memberikan jeda tunggu 30 detik. Selain itu, pengembang melalui Telegram bisa mengganti password sebagai langkah pengamanan tambahan.
